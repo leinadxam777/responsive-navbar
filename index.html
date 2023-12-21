@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="./script.js"></script>
+    <title>Responsive Navbar</title>
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <a href="#" class="brand">
+                <img src="./cloud.svg" alt="cloud-logo">
+            </a>
+
+            <div class="nav-links" id="nav-links">
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Contact</a>
+            </div>
+
+            <div class="nav-buttons">
+                <a href="" class="login">Login</a>
+                <a href="" class="register">Register</a>
+            </div>
+
+            <button 
+            class="nav-toggle" 
+            id="nav-toggle" 
+            aria-label="Toggle Navigation" 
+            aria-controls="nav-links"
+            aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+</body>
+</html>
